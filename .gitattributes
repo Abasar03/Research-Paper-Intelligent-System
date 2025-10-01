@@ -1,6 +1,0 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-echo "*.csv filter=lfs diff=lfs merge=lfs -text"
-echo "*.pkl filter=lfs diff=lfs merge=lfs -text"
-echo "*.gz filter=lfs diff=lfs merge=lfs -text"
-echo "*_part_* filter=lfs diff=lfs merge=lfs -text"
